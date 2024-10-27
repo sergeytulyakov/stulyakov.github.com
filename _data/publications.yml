@@ -1,0 +1,792 @@
+- arxiv_page: https://arxiv.org/abs/2406.04324
+  authors:
+  - Zhixing Zhang
+  - Yanyu Li
+  - Yushu Wu
+  - Yanwu Xu
+  - Anil Kag
+  - Ivan Skorokhodov
+  - Willi Menapace
+  - Aliaksandr Siarohin
+  - Junli Cao
+  - Dimitris Metaxas
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://snap-research.github.io/SF-V/
+  teaser: publications/images/sf-v-1.mp4
+  teaser_type: video
+  title: 'SF-V: Single Forward Video Generation Model'
+  venue: Neural Information Processing Systems, NeurIPS’2024
+- arxiv_page: https://arxiv.org/abs/2406.04333
+  authors:
+  - Yang Sui
+  - Yanyu Li
+  - Anil Kag
+  - Yerlan Idelbayev
+  - Junli Cao
+  - Ju Hu
+  - Dhritiman Sagar
+  - Bo Yuan
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://snap-research.github.io/BitsFusion/
+  teaser: publications/images/bitsfusion.jpg
+  teaser_type: image
+  title: 'BitsFusion: 1.99 bits Weight Quantization of Diffusion Model'
+  venue: Neural Information Processing Systems, NeurIPS’2024
+- arxiv_page: https://arxiv.org/abs/2406.19434
+  authors:
+  - Junli Cao
+  - Vidit Goel
+  - Chaoyang Wang
+  - Anil Kag
+  - Ju Hu
+  - Sergei Korolev
+  - Chenfanfu Jiang
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: Pre-print
+  highlight: ''
+  project_page: https://plumpuddings.github.io/LPGS/
+  teaser: publications/images/lightweight-gs.jpg
+  teaser_type: image
+  title: Lightweight Predictive 3D Gaussian Splats
+  venue: ''
+- arxiv_page: https://arxiv.org/abs/2406.19388
+  authors:
+  - Moayed Haji-Ali
+  - Willi Menapace
+  - Aliaksandr Siarohin
+  - Guha Balakrishnan
+  - Sergey Tulyakov
+  - Vicente Ordonez
+  badge: Pre-print
+  highlight: ''
+  project_page: https://snap-research.github.io/GenAU/
+  teaser: publications/images/genau.mp4
+  teaser_type: video
+  title: Taming Data and Transformers for Audio Generation
+  venue: ''
+- arxiv_page: https://arxiv.org/abs/2406.07472
+  authors:
+  - Heng Yu
+  - Chaoyang Wang
+  - Peiye Zhuang
+  - Willi Menapace
+  - Aliaksandr Siarohin
+  - Junli Cao
+  - Laszlo A Jeni
+  - Sergey Tulyakov
+  - Hsin-Ying Lee
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://snap-research.github.io/4Real/
+  teaser: publications/images/4real.mp4
+  teaser_type: video
+  title: '4Real: Towards Photorealistic 4D Scene Generation via Video Diffusion Models'
+  venue: Neural Information Processing Systems, NeurIPS’2024
+- arxiv_page: https://arxiv.org/abs/2406.05649
+  authors:
+  - Peiye Zhuang
+  - Songfang Han
+  - Chaoyang Wang
+  - Aliaksandr Siarohin
+  - Jiaxu Zou
+  - Michael Vasilkovsky
+  - Vladislav Shakhrai
+  - Sergey Korolev
+  - Sergey Tulyakov
+  - Hsin-Ying Lee
+  badge: Pre-print
+  highlight: ''
+  project_page: https://snap-research.github.io/GTR/
+  teaser: publications/images/gtr.mp4
+  teaser_type: video
+  title: 'GTR: Improving Large 3D Reconstruction Models through Geometry and Texture
+    Refinement'
+  venue: ''
+- arxiv_page: https://arxiv.org/abs/2404.11565
+  authors:
+  - Kuan-Chieh (Jackson) Wang
+  - Daniil Ostashev
+  - Yuwei Fang
+  - Sergey Tulyakov
+  - Kfir Aberman
+  badge: SIGGRAPH Asia
+  highlight: ""
+  project_page: https://snap-research.github.io/mixture-of-attention/
+  teaser: publications/images/moa.jpg
+  teaser_type: image
+  title: 'MoA : Mixture-of-Attention for Subject-Context Disentanglement in Personalized
+    Image Generation'
+  venue: Transactions on Graphics, SIGGRAPH Asia'2024
+- arxiv_page: https://arxiv.org/abs/2403.17920
+  authors:
+  - Sherwin Bahmani
+  - Xian Liu
+  - Yifan Wang
+  - Ivan Skorokhodov
+  - Victor Rong
+  - Ziwei Liu
+  - Xihui Liu
+  - Jeong Joon Park
+  - Sergey Tulyakov
+  - Gordon Wetzstein
+  - Andrea Tagliasacchi
+  - David B. Lindell
+  badge: ECCV
+  highlight: ''
+  project_page: https://sherwinbahmani.github.io/tc4d/
+  teaser: publications/images/tc4d-1.mp4
+  teaser_type: video
+  title: 'TC4D: Trajectory-Conditioned Text-to-4D Generation'
+  venue: European Conveference on Computer Vision, ECCV'2024
+- arxiv_page: https://arxiv.org/abs/2312.06661
+  authors:
+  - Bharath Raj Nagoor Kani
+  - Hsin-Ying Lee
+  - Sergey Tulyakov
+  - Shubham Tulsiani
+  badge: ECCV
+  highlight: ''
+  project_page: https://upfusion3d.github.io/
+  teaser: publications/images/upfusion-1.mp4
+  teaser_type: video
+  title: 'UpFusion: Novel View Diffusion from Unposed Sparse View Observations'
+  venue: European Conveference on Computer Vision, ECCV'2024
+- arxiv_page: https://arxiv.org/abs/2403.14599
+  authors:
+  - Yuval Alaluf
+  - Elad Richardson
+  - Sergey Tulyakov
+  - Kfir Aberman
+  - Daniel Cohen-Or
+  badge: ECCV
+  highlight: ''
+  project_page: https://popspaper.github.io/pOps/
+  teaser: publications/images/myvlm.jpg
+  teaser_type: image
+  title: 'MyVLM: Personalizing VLMs for User-Specific Queries'
+  venue: "European Conveference on Computer Vision, ECCV\u20192024"
+- arxiv_page: https://arxiv.org/abs/2402.19479
+  authors:
+  - Tsai-Shien Chen
+  - Aliaksandr Siarohin
+  - Willi Menapace
+  - Ekaterina Deyneka
+  - Hsiang-wei Chao
+  - Byung Eun Jeon
+  - Yuwei Fang
+  - Hsin-Ying Lee
+  - Jian Ren
+  - Ming-Hsuan Yang
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/Panda-70M/
+  teaser: publications/images/panda-70m.mp4
+  teaser_type: video
+  title: 'Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers'
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2402.14797
+  authors:
+  - Willi Menapace
+  - Aliaksandr Siarohin
+  - Ivan Skorokhodov
+  - Ekaterina Deyneka
+  - Tsai-Shien Chen
+  - Anil Kag
+  - Yuwei Fang
+  - Aleksei Stoliar
+  - Elisa Ricci
+  - Jian Ren
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: Highlight
+  project_page: https://snap-research.github.io/snapvideo/
+  teaser: publications/images/snap-video.mp4
+  teaser_type: video
+  title: 'Snap Video: Scaled Spatiotemporal Transformers for Text-to-video Synthesis'
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2311.17984
+  authors:
+  - Sherwin Bahmani
+  - Ivan Skorokhodov
+  - Victor Rong
+  - Gordon Wetzstein
+  - Leonidas Guibas
+  - Peter Wonka
+  - Sergey Tulyakov
+  - Jeong Joon Park
+  - Andrea Tagliasacchi
+  - David B Lindell
+  badge: CVPR
+  highlight: ''
+  project_page: https://sherwinbahmani.github.io/4dfy/
+  teaser: publications/images/4dfy-1.mp4
+  teaser_type: video
+  title: '4D-fy: Text-to-4d Generation using Hybrid Score Distillation Sampling'
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2311.17261
+  authors:
+  - Dave Zhenyu Chen
+  - Haoxuan Li
+  - Hsin-Ying Lee
+  - Sergey Tulyakov
+  - "Matthias Nie\xDFner"
+  badge: CVPR
+  highlight: Highlight
+  project_page: https://daveredrum.github.io/SceneTex/
+  teaser: publications/images/scene-tex.png
+  teaser_type: image
+  title: 'SceneTex: High-Quality Texture Synthesis for Indoor Scenes via Diffusion
+    Priors'
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2312.08885
+  authors:
+  - Qihang Zhang
+  - Chaoyang Wang
+  - Aliaksandr Siarohin
+  - Peiye Zhuang
+  - Yinghao Xu
+  - Ceyuan Yang
+  - Dahua Lin
+  - Bolei Zhou
+  - Sergey Tulyakov
+  - Hsin-Ying Lee
+  badge: CVPR
+  highlight: ''
+  project_page: https://zqh0253.github.io/SceneWiz3D/
+  teaser: publications/images/scenewiz.mp4
+  teaser_type: video
+  title: Towards Text-guided 3D Scene Composition
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2403.18978
+  authors:
+  - Yanyu Li
+  - Xian Liu
+  - Anil Kag
+  - Ju Hu
+  - Yerlan Idelbayev
+  - Dhritiman Sagar
+  - Yanzhi Wang
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/textcraftor/
+  teaser: publications/images/textcraftor.jpeg
+  teaser_type: image
+  title: 'TextCraftor: Your Text Encoder Can Be Image Guality Controller'
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2406.07792
+  authors:
+  - Ivan Skorokhodov
+  - Willi Menapace
+  - Aliaksandr Siarohin
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/hpdm/
+  teaser: publications/images/hpdm.png
+  teaser_type: image
+  title: Hierarchical Patch Diffusion Models for High-Resolution Video Generation
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2402.05235
+  authors:
+  - Yash Kant
+  - Aliaksandr Siarohin
+  - Ziyi Wu
+  - Michael Vasilkovsky
+  - Guocheng Qian
+  - Jian Ren
+  - Riza Alp Guler
+  - Bernard Ghanem
+  - Sergey Tulyakov
+  - Igor Gilitschenski
+  badge: CVPR
+  highlight: ''
+  project_page: https://yashkant.github.io/spad/
+  teaser: publications/images/spad.png
+  teaser_type: image
+  title: 'SPAD: Spatially Aware Multi-View Diffusers'
+  venue: "Computer Vision and Patter Recognition, CVPR\u20192024"
+- arxiv_page: https://dl.acm.org/doi/full/10.1145/3635705
+  authors:
+  - Willi Menapace
+  - Aliaksandr Siarohin
+  - "St\xE9phane Lathuili\xE8re"
+  - Panos Achlioptas
+  - Vladislav Golyanik
+  - Sergey Tulyakov
+  - Elisa Ricci
+  badge: Transactions on Grahpics
+  highlight: ''
+  project_page: https://snap-research.github.io/promptable-game-models/
+  teaser: publications/images/pgm-2.mp4
+  teaser_type: video
+  title: 'Promptable Game Models: Text-guided Game Simulation via Masked Diffusion
+    Models'
+  venue: "Transactions on Grahpics, TOG\u20192024"
+- arxiv_page: https://arxiv.org/abs/2306.17843
+  authors:
+  - Guocheng Qian
+  - Jinjie Mai
+  - Abdullah Hamdi
+  - Jian Ren
+  - Aliaksandr Siarohin
+  - Bing Li
+  - Hsin-Ying Lee
+  - Ivan Skorokhodov
+  - Peter Wonka
+  - Sergey Tulyakov
+  - Bernard Ghanem
+  badge: ICLR
+  highlight: ''
+  project_page: https://guochengqian.github.io/project/magic123/
+  teaser: publications/images/magic-123-1.mp4
+  teaser_type: video
+  title: 'Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and
+    3D Diffusion Priors'
+  venue: "International Conference on Learning Representations, ICLR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2310.08579
+  authors:
+  - Xian Liu
+  - Jian Ren
+  - Aliaksandr Siarohin
+  - Ivan Skorokhodov
+  - Yanyu Li
+  - Dahua Lin
+  - Xihui Liu
+  - Ziwei Liu
+  - Sergey Tulyakov
+  badge: ICLR
+  highlight: ''
+  project_page: https://snap-research.github.io/HyperHuman/
+  teaser: publications/images/hyperhuman.jpg
+  teaser_type: image
+  title: 'HyperHuman: Hyper-Realistic Human Generation with Latent Structural Diffusion'
+  venue: "International Conference on Learning Representations, ICLR\u20192024"
+- arxiv_page: https://arxiv.org/abs/2307.03190
+  authors:
+  - Aniruddha Mahapatra
+  - Aliaksandr Siarohin
+  - Hsin-Ying Lee
+  - Sergey Tulyakov
+  - Jun-Yan Zhu
+  badge: SIGGRAPH Asia
+  highlight: ''
+  project_page: https://text2cinemagraph.github.io/website/
+  teaser: publications/images/cinemagraphs-1.mp4
+  teaser_type: video
+  title: Text-Guided Synthesis of Eulerian Cinemagraphs
+  venue: "Transactions on Graphics, SIGGRAPH Asia'2023"
+- arxiv_page: https://arxiv.org/abs/2306.00980
+  authors:
+  - Yanyu Li
+  - Huan Wang
+  - Qing Jin
+  - Ju Hu
+  - Pavlo Chemerys
+  - Yun Fu
+  - Yanzhi Wang
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: NeurIPS - World's fastest mobile diffusion!
+  highlight: ''
+  project_page: https://snap-research.github.io/SnapFusion/
+  teaser: publications/images/snapfusion.jpg
+  teaser_type: image
+  title: 'SnapFusion: Text-to-image Giffusion Model on Mobile Devices within Two Seconds'
+  venue: "Neural Information Processing Systems, NeurIPS\u20192023"
+- arxiv_page: https://arxiv.org/abs/2307.05445
+  authors:
+  - Evangelos Ntavelis
+  - Aliaksandr Siarohin
+  - Kyle Olszewski
+  - Chaoyang Wang
+  - Luc Van Gool
+  - Sergey Tulyakov
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://snap-research.github.io/3DVADER/
+  teaser: publications/images/vader.jpg
+  teaser_type: image
+  title: Autodecoding latent 3d diffusion models
+  venue: "Neural Information Processing Systems, NeurIPS\u20192023"
+- arxiv_page: https://arxiv.org/abs/2206.01191
+  authors:
+  - Yanyu Li
+  - Ju Hu
+  - Yang Wen
+  - Georgios Evangelidis
+  - Kamyar Salahi
+  - Yanzhi Wang
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: ICCV
+  highlight: ''
+  project_page: https://github.com/snap-research/EfficientFormer
+  teaser: publications/images/eformerv2.png
+  teaser_type: image
+  title: Rethinking Vision Transformers for MobileNet Size and Speed
+  venue: "International Conference on Computer Vision, ICCV\u20192023"
+- arxiv_page: https://arxiv.org/abs/2303.11396
+  authors:
+  - Dave Zhenyu Chen
+  - Yawar Siddiqui
+  - Hsin-Ying Lee
+  - Sergey Tulyakov
+  - "Matthias Nie\xDFner"
+  badge: ICCV
+  highlight: ''
+  project_page: https://daveredrum.github.io/Text2Tex/
+  teaser: publications/images/text-to-tex.mp4
+  teaser_type: video
+  title: 'Text2Tex: Text-driven Texture Synthesis via Diffusion Models'
+  venue: "International Conference on Computer Vision, ICCV\u20192023"
+- arxiv_page: https://arxiv.org/abs/2301.09637
+  authors:
+  - Chieh Hubert Lin
+  - Hsin-Ying Lee
+  - Willi Menapace
+  - Menglei Chai
+  - Aliaksandr Siarohin
+  - Ming-Hsuan Yang
+  - Sergey Tulyakov
+  badge: ICCV
+  highlight: ''
+  project_page: https://hubert0527.github.io/infinicity/
+  teaser: publications/images/infinicity.mp4
+  teaser_type: video
+  title: 'InfiniCity: Infinite-Scale City Synthesis'
+  venue: "International Conference on Computer Vision, ICCV\u20192023"
+- arxiv_page: https://arxiv.org/abs/2301.11326
+  authors:
+  - Aliaksandr Siarohin
+  - Willi Menapace
+  - Ivan Skorokhodov
+  - Kyle Olszewski
+  - Jian Ren
+  - Hsin-Ying Lee
+  - Menglei Chai
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/unsupervised-volumetric-animation/
+  teaser: publications/images/uva.mp4
+  teaser_type: video
+  title: Unsupervised Volumetric Animation
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2210.01946
+  authors:
+  - Panos Achlioptas
+  - Maks Ovsjanikov
+  - Leonidas Guibas
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://affective-explanations.org/
+  teaser: publications/images/affection.png
+  teaser_type: image
+  title: 'Affection: Learning Affective Explanations for Real-World Visual Data'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2301.02700
+  authors:
+  - Junli Cao
+  - Huan Wang
+  - Pavlo Chemerys
+  - Vladislav Shakhrai
+  - Ju Hu
+  - Yun Fu
+  - Denys Makoviichuk
+  - Sergey Tulyakov
+  - Jian Ren
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/MobileR2L
+  teaser: publications/images/mobile-r2l-1.mp4
+  teaser_type: video
+  title: Real-Time Neural Light Field on Mobile Devices
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2301.02700
+  authors:
+  - Rameen Abdal
+  - Hsin-Ying Lee
+  - Peihao Zhu
+  - Menglei Chai
+  - Aliaksandr Siarohin
+  - Peter Wonka
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://rameenabdal.github.io/3DAvatarGAN/
+  teaser: publications/images/3davatargan.mp4
+  teaser_type: video
+  title: '3DAvatarGAN: Bridging Domains for Personalized Editable Avatars'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2212.04493
+  authors:
+  - Yen-Chi Cheng
+  - Hsin-Ying Lee
+  - Sergey Tulyakov
+  - Alex Schwing
+  - Liangyan Gui
+  badge: CVPR
+  highlight: ''
+  project_page: https://yccyenchicheng.github.io/SDFusion/
+  teaser: publications/images/sdfusion.mp4
+  teaser_type: video
+  title: 'SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2212.11984
+  authors:
+  - Yinghao Xu
+  - Menglei Chai
+  - Zifan Shi
+  - Sida Peng
+  - Ivan Skorokhodov
+  - Aliaksandr Siarohin
+  - Ceyuan Yang
+  - Yujun Shen
+  - Hsin-Ying Lee
+  - Bolei Zhou
+  - Sergey Tulyakov
+  badge: CVPR Highlight
+  highlight: Highlight
+  project_page: https://snap-research.github.io/discoscene/
+  teaser: publications/images/discoscene.mp4
+  teaser_type: video
+  title: 'DisCoScene: Spatially Disentangled Generative Radiance Fields for Controllable
+    3D-aware Scene Synthesis'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2303.01416
+  authors:
+  - Ivan Skorokhodov
+  - Aliaksandr Siarohin
+  - Yinghao Xu
+  - Jian Ren
+  - Hsin-Ying Lee
+  - Peter Wonka
+  - Sergey Tulyakov
+  badge: ICLR Oral
+  highlight: Oral
+  project_page: https://snap-research.github.io/3dgp/
+  teaser: publications/images/3dgp-1.mp4
+  teaser_type: video
+  title: 3D Generation on ImageNet
+  venue: "International Conference on Learning Representations, ICLR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2206.10535
+  authors:
+  - Ye Zhu
+  - Yu Wu
+  - Kyle Olszewski
+  - Jian Ren
+  - Sergey Tulyakov
+  - Yan Yan
+  badge: ICLR
+  highlight: ''
+  project_page: https://l-yezhu.github.io/CDCD/
+  teaser: publications/images/cdcd.png
+  teaser_type: image
+  title: Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation
+  venue: "International Conference on Learning Representations, ICLR\u20192023"
+- arxiv_page: https://arxiv.org/abs/2206.10535
+  authors:
+  - Ivan Skorokhodov
+  - Sergey Tulyakov
+  - Yiqun Wang
+  - Peter Wonka
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://universome.github.io/epigraf
+  teaser: publications/images/epigraph.mp4
+  teaser_type: video
+  title: 'EpiGRAF: Rethinking Training of 3D GANs'
+  venue: "Neural Information Processing Systems, NeurIPS\u20192022"
+- arxiv_page: https://arxiv.org/abs/2206.01191
+  authors:
+  - Yanyu Li
+  - Geng Yuan
+  - Yang Wen
+  - Eric Hu
+  - Georgios Evangelidis
+  - Sergey Tulyakov
+  - Yanzhi Wang
+  - Jian Ren
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://github.com/snap-research/EfficientFormer
+  teaser: publications/images/efficient-former.png
+  teaser_type: image
+  title: 'EfficientFormer: Vision Transformers at MobileNet Speed'
+  venue: "Neural Information Processing Systems, NeurIPS\u20192022"
+- arxiv_page: https://arxiv.org/abs/2203.17261
+  authors:
+  - Huan Wang
+  - Jian Ren
+  - Zeng Huang
+  - Menglei Chai
+  - Kyle Olszewski
+  - Yun Fu
+  - Sergey Tulyakov
+  badge: ECCV
+  highlight: ''
+  project_page: https://snap-research.github.io/R2L/
+  teaser: publications/images/r2l.mp4
+  teaser_type: video
+  title: 'R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient
+    Novel View Synthesis'
+  venue: "European Conference on Computer Vision, ECCV\u20192022"
+- arxiv_page: https://arxiv.org/abs/2201.02533
+  authors:
+  - Zhengfei Kuang
+  - Kyle Olszewski
+  - Menglei Chai
+  - Zeng Huang
+  - Panos Achlioptas
+  - Sergey Tulyakov
+  badge: SIGGRAPH
+  highlight: ''
+  project_page: https://zfkuang.github.io/NeROIC/
+  teaser: publications/images/neroic-1.mp4
+  teaser_type: video
+  title: 'NeROIC: Neural Rendering of Objects from Online Image Collections'
+  venue: "Transactions on Graphics, SIGGRAPH\u20192022"
+- arxiv_page: https://arxiv.org/abs/2203.01914
+  authors:
+  - Willi Menapace
+  - "St\xE9phane Lathuili\xE8re"
+  - Aliaksandr Siarohin
+  - Christian Theobalt
+  - Sergey Tulyakov
+  - Vladislav Golyanik
+  - Elisa Ricci
+  badge: CVPR
+  highlight: ''
+  project_page: https://willi-menapace.github.io/playable-environments-website/
+  teaser: publications/images/pe-1.mp4
+  teaser_type: video
+  title: 'Playable Environments: Video Manipulation in Space and Time'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192022"
+- arxiv_page: https://arxiv.org/abs/2203.02573
+  authors:
+  - Ligong Han
+  - Jian Ren
+  - Hsin-Ying Lee
+  - Francesco Barbieri
+  - Kyle Olszewski
+  - Shervin Minaee
+  - Dimitris Metaxas
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/MMVID/
+  teaser: publications/images/mmvid-1.mp4
+  teaser_type: video
+  title: 'Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192022"
+- arxiv_page: https://arxiv.org/abs/2112.14683
+  authors:
+  - Ivan Skorokhodov
+  - Sergey Tulyakov
+  - Mohamed Elhoseiny
+  badge: CVPR
+  highlight: ''
+  project_page: https://universome.github.io/stylegan-v
+  teaser: publications/images/stylegan-v-1.mp4
+  teaser_type: video
+  title: 'StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and
+    Perks of StyleGAN2'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192022"
+- arxiv_page: https://arxiv.org/abs/2104.11280
+  authors:
+  - Aliaksandr Siarohin
+  - Oliver Woodford
+  - Jian Ren
+  - Menglei Chai
+  - Sergey Tulyakov
+  badge: CVPR
+  highlight: ''
+  project_page: https://snap-research.github.io/articulated-animation/
+  teaser: publications/images/mraa.mp4
+  teaser_type: video
+  title: Motion Representations for Articulated Animation
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192021"
+- arxiv_page: https://arxiv.org/abs/2101.12195
+  authors:
+  - Willi Menapace
+  - "St\xE9phane Lathuili\xE8re"
+  - Sergey Tulyakov
+  - Aliaksandr Siarohin
+  - Elisa Ricci
+  badge: CVPR Oral
+  highlight: Oral
+  project_page: https://willi-menapace.github.io/playable-video-generation-website/
+  teaser: publications/images/pvg-1.mp4
+  teaser_type: video
+  title: Playable Video Generation
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192021"
+- arxiv_page: https://arxiv.org/abs/2104.15069
+  authors:
+  - Yu Tian
+  - Jian Ren
+  - Menglei Chai
+  - Kyle Olszewski
+  - Xi Peng
+  - Dimitris N. Metaxas
+  - Sergey Tulyakov
+  badge: ICLR Spotlight
+  highlight: Spotlight
+  project_page: https://bluer555.github.io/MoCoGAN-HD/
+  teaser: publications/images/mocogan-hd-1.mp4
+  teaser_type: video
+  title: A Good Image Generator Is What You Need for High-Resolution Video Synthesis
+  venue: "International Conference on Learning Representations, ICLR\u20192021"
+- arxiv_page: https://arxiv.org/abs/2003.00196
+  authors:
+  - Aliaksandr Siarohin
+  - "St\xE9phane Lathuili\xE8re"
+  - Sergey Tulyakov
+  - Elisa Ricci
+  - Nicu Sebe
+  badge: NeurIPS
+  highlight: ''
+  project_page: https://aliaksandrsiarohin.github.io/first-order-model-website/
+  teaser: publications/images/fomm.mp4
+  teaser_type: video
+  title: First Order Motion Model for Image Animation
+  venue: "Neural Information Processing Systems, NeurIPS\u20192019"
+- arxiv_page: https://arxiv.org/abs/1707.04993
+  authors:
+  - Sergey Tulyakov
+  - Ming-Yu Liu
+  - Xiaodong Yang
+  - Jan Kautz
+  badge: CVPR
+  highlight: ''
+  project_page: https://github.com/sergeytulyakov/mocogan
+  teaser: publications/images/mocogan.png
+  teaser_type: image
+  title: 'MoCoGAN: Decomposing Motion and Content for Video Generation'
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192018"
+- arxiv_page: https://openaccess.thecvf.com/content_cvpr_2016/papers/Tulyakov_Self-Adaptive_Matrix_Completion_CVPR_2016_paper.pdf
+  authors:
+  - Sergey Tulyakov
+  - Xavier Alameda Pineda
+  - Elisa Ricci
+  - Jijun Yin
+  - Jeffrey Cohn
+  - Nicu Sebe
+  badge: CVPR Oral
+  highlight: Oral
+  project_page: https://stulyakov.com/papers/cvpr2016.html
+  teaser: publications/images/samc.jpg
+  teaser_type: image
+  title: Self-Adaptive Matrix Completion for Heart Rate Estimation from Face Videos
+    under Realistic Conditions
+  venue: "Computer Vision and Pattern Recognition, CVPR\u20192016"
