@@ -1,0 +1,266 @@
+<!doctype html>
+<html data-bs-theme="auto" lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNDF56NXQS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QNDF56NXQS');
+    </script>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>Sergey Tulyakov</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/scroll-hint@1.1.2/css/scroll-hint.css" rel="stylesheet">
+    <script src="https://unpkg.com/scroll-hint@1.1.2/js/scroll-hint.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        .testimonial-group>.row {
+          overflow-x: auto;
+          white-space: nowrap;
+        }
+
+        .testimonial-group>.row>.col-xs-4 {
+          display: inline-block;
+          float: none;
+        }
+
+        /* Style all font awesome icons */
+        .fa {
+          padding: 10px;
+          font-size: 20px !important;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 50%;
+        }
+
+        .fa-img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+
+        /* Add a hover effect if you want */
+        .fa:hover {
+          opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+
+        .fa-snapchat {
+          background: #FFFC00;
+          color: black;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+
+        /* Twitter */
+        .fa-linkedin {
+          background: #2D64BC;
+          color: white;
+        }
+
+        .fa-github {
+          background: #444444;
+          color: white;
+        }
+
+        .fa-x-twitter {
+          background: #000000;
+          color: white;
+        }
+
+        .fa-google-scholar {
+          background: #316CF4;
+          color: white;
+        }
+
+        .fa-envelope {
+          background: #316CF4;
+          color: white;
+        }
+
+        .fa-memo {
+          background: #316CF4;
+          color: white;
+        }
+
+        .bio {
+          background: #316CF4;
+          color: white;
+          background: url('assets/bio.svg');
+          background-repeat: no-repeat;
+        }
+
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+
+        /* timeline */
+
+        body {
+          margin-top: 20px;
+        }
+
+        .timeline-steps {
+          display: inline-flex;
+          justify-content: center;
+          flex-wrap: nowrap
+        }
+
+        .timeline-steps .timeline-step {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin: 1rem
+        }
+
+        @media (min-width:768px) {
+          .timeline-steps .timeline-step:not(:first-child):after {
+            content: "";
+            display: block;
+            border-top: .25rem dotted #3b82f6;
+            width: 3.46rem;
+            position: absolute;
+            left: 7.5rem;
+            top: .3125rem
+          }
+
+          .timeline-steps .timeline-step:not(:last-child):before {
+            content: "";
+            display: block;
+            border-top: .25rem dotted #3b82f6;
+            width: 3.8125rem;
+            position: absolute;
+            right: 7.5rem;
+            top: .3125rem
+          }
+        }
+
+        .timeline-steps .timeline-content {
+          width: 10rem;
+          text-align: center
+        }
+
+        .timeline-steps .timeline-content .inner-circle {
+          border-radius: 1.5rem;
+          height: 1rem;
+          width: 1rem;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .notify-badge {
+          position: absolute;
+          top: 3%;
+          left: 3%;
+        }
+
+        .item {
+          position: relative;
+          display: inline-block;
+        }
+
+        .scrolling-wrapper {
+          overflow-x: auto;
+          direction: rtl;
+        }
+
+        .bio {
+          background: url('assets/bio.svg');
+          background-repeat: no-repeat;
+        }
+
+        .last {
+          scroll-snap-align: end;
+        }
+
+        .img-max {
+          max-width: 380px;
+          width:100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="my-3 py-3 text-center">
+    <img alt="" class="d-block mx-auto mb-4 rounded-circle" height="256" src="images/sergey-2021.jpg" width="256">
+    <h2 class="display-5 fw-bold text-body-emphasis">Sergey Tulyakov</h2>
+    <div class="col-lg-6 col-sm-11 col-xs-11 mx-auto row">
+        <p class="lead mb-4">Welcome! I'm a Director of Research, leading the Creative Vision at Snap Inc. We build
+            large
+            generative models, make them efficient, and personalized.</p>
+        <div class="gap-2 d-sm-flex justify-content-sm-center">
+            {% for s in site.data.social %}
+            <a class="social" href="{{ s.link }}">
+                <i class="{{ s.class }}"></i>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{{ content }}
+
+</body>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

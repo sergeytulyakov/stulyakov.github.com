@@ -1,0 +1,81 @@
+---
+layout: layout
+title: Bio
+---
+
+<style>
+</style>
+
+<script>
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    function outFunc() {
+        $("#copy-bio-button").attr('title', 'Copy Bio')
+              .tooltip('_fixTitle')
+              .tooltip('show');
+    }
+
+    function copyBio() {
+        var text = document.getElementById("bio").innerText;
+        var elem = document.createElement("textarea");
+        document.body.appendChild(elem);
+        elem.value = text;
+        elem.select();
+        document.execCommand("copy");
+        document.body.removeChild(elem);
+        $("#copy-bio-button").attr('title', 'Copied')
+              .tooltip('_fixTitle')
+              .tooltip('show');
+    }
+</script>
+
+<div class="container">
+
+    <div class="py-3 text-left col-lg-10 col-sm-11 col-xs-11 mx-auto row">
+        <h3 class="display-6 fw-bold">Bio</h3>
+        <p id="bio" class="lead"><a href="https://stulyakov.com">Sergey Tulyakov</a> is the Director of Research at Snap
+            Inc.,
+            where he leads the <a
+                    href="https://research.snap.com/team/category/creative-vision">Creative Vision</a> team.
+            Sergey’s work focuses on building technology to enhance creators’ skills using computer vision, machine
+            learning, and generative AI. His work involves 2D, 3D, video generation, editing, and personalization.
+            To scale
+            generative experiences to hundreds of millions of users, Sergey’s team builds the world’s most efficient
+            mobile
+            foundational models, which enhance multiple products at Snap Inc. Sergey pioneered video generation and
+            unsupervised animation domains with MoCoGAN, MonkeyNet, and the First Order Motion Model, sparking
+            several
+            startups in the field. His work on Interactive Video Stylization received the Best in Show Award at
+            SIGGRAPH
+            Real-Time Live! 2020. He has published over 60 top conference papers, journals, and patents, resulting
+            in
+            multiple innovative products, including <a
+                    href="https://www.elitedaily.com/p/snapchats-new-time-machine-lens-combines-your-2-of-your-favorite-filters-19371910">Real-time
+                Neural Lenses</a>, <a
+                    href="https://www.fastcompany.com/90811632/exclusive-try-on-your-teams-world-cup-jersey-with-snaps-new-ar-filter">real-time
+                try-on</a>, <a
+                    href="https://techcrunch.com/2024/09/17/snap-is-introducing-an-ai-video-generation-tool-for-creators/">Snap
+                AI Video</a>, <a
+                    href="https://fastcompanyme.com/technology/snaps-new-ar-spectacles-are-fun-too-bad-theyre-not-for-consumers-yet/">Imagine
+                Together</a>, world's fastest <a
+                    href="https://techcrunch.com/2024/06/18/snap-previews-its-real-time-image-model-that-can-generate-ar-experiences/">foundational
+                image-to-image model</a> and many more. Before joining Snap Inc., Sergey was with Carnegie
+            Mellon University, Microsoft, and NVIDIA. He holds a PhD from the University of Trento, Italy.
+        </p>
+        <div class="gap-2 d-sm-flex justify-content-sm-left">
+            <a class="btn btn-primary" href="/" type="button">
+                <i class="fa-solid fa-arrow-left"></i>
+                Back
+            </a>
+
+            <button id="copy-bio-button" type="button" class="btn btn-primary" data-toggle="tooltip"
+                    data-placement="top" title="Copy Bio" onclick="copyBio()"  onmouseout="outFunc()">
+                Copy Bio
+            </button>
+
+        </div>
+    </div>
+</div>

@@ -1,429 +1,200 @@
 ---
+layout: layout
 ---
-<!doctype html>
-<html lang="en" data-bs-theme="auto">
 
-<head>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QNDF56NXQS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-QNDF56NXQS');
-</script>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Sergey Tulyakov</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/font-awesome.min.css">
-  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://unpkg.com/scroll-hint@1.1.2/css/scroll-hint.css">
-  <script src="https://unpkg.com/scroll-hint@1.1.2/js/scroll-hint.js"></script>
-
-  <style>
-    .testimonial-group>.row {
-      overflow-x: auto;
-      white-space: nowrap;
-    }
-
-    .testimonial-group>.row>.col-xs-4 {
-      display: inline-block;
-      float: none;
-    }
-
-    /* Style all font awesome icons */
-    .fa {
-      padding: 10px;
-      font-size: 20px !important;
-      width: 40px;
-      height: 40px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50%;
-    }
-
-    .fa-img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
-
-    /* Add a hover effect if you want */
-    .fa:hover {
-      opacity: 0.7;
-    }
-
-    /* Set a specific color for each brand */
-
-    /* Facebook */
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-
-    .fa-snapchat {
-      background: #FFFC00;
-      color: black;
-    }
-
-    /* Twitter */
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-
-    /* Twitter */
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
-
-    .fa-github {
-      background: #444444;
-      color: white;
-    }
-
-    .fa-x-twitter {
-      background: #000000;
-      color: white;
-    }
-
-    .fa-google-scholar {
-      background: #316CF4;
-      color: white;
-    }
-
-    .fa-envelope {
-      background: #316CF4;
-      color: white;
-    }
-
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
-    .nav-scroller {
-      position: relative;
-      z-index: 2;
-      height: 2.75rem;
-      overflow-y: hidden;
-    }
-
-    .nav-scroller .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 1rem;
-      margin-top: -1px;
-      overflow-x: auto;
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    /* timeline */
-
-    body {
-      margin-top: 20px;
-    }
-
-    .timeline-steps {
-      display: inline-flex;
-      justify-content: center;
-      flex-wrap: nowrap
-    }
-
-    .timeline-steps .timeline-step {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      margin: 1rem
-    }
-
-    @media (min-width:768px) {
-      .timeline-steps .timeline-step:not(:first-child):after {
-        content: "";
-        display: block;
-        border-top: .25rem dotted #3b82f6;
-        width: 3.46rem;
-        position: absolute;
-        left: 7.5rem;
-        top: .3125rem
-      }
-
-      .timeline-steps .timeline-step:not(:last-child):before {
-        content: "";
-        display: block;
-        border-top: .25rem dotted #3b82f6;
-        width: 3.8125rem;
-        position: absolute;
-        right: 7.5rem;
-        top: .3125rem
-      }
-    }
-
-    .timeline-steps .timeline-content {
-      width: 10rem;
-      text-align: center
-    }
-
-    .timeline-steps .timeline-content .inner-circle {
-      border-radius: 1.5rem;
-      height: 1rem;
-      width: 1rem;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .notify-badge {
-      position: absolute;
-      top: 3%;
-      left: 3%;
-    }
-
-    .item {
-      position: relative;
-      display: inline-block;
-    }
-
-    .scrolling-wrapper {
-      overflow-x: auto;
-      direction: rtl;
-    }
-
-    .social {
-      text-decoration: none !important;
-    }
-
-    .last {
-      scroll-snap-align: end;
-    }
-
-    .img-max {
-      max-width: 380px;
-      width:100%;
-    }
-  </style>
-
-</head>
-
-<body>
-
-  <div class="my-3 py-3 text-center">
-    <img class="d-block mx-auto mb-4 rounded-circle" src="images/sergey-2021.jpg" alt="" width="256" height="256">
-    <h2 class="display-5 fw-bold text-body-emphasis">Sergey Tulyakov</h2>
-    <div class="col-lg-6 col-sm-11 col-xs-11 mx-auto row">
-      <p class="lead mb-4">Welcome! I'm a Director of Research, leading the Creative Vision at Snap Inc. We build large
-        generative models, make them efficient, and personalized.</p>
-      <div class="gap-2 d-sm-flex justify-content-sm-center">
-        {% for s in site.data.social %}
-          <a href="{{ s.link }}" class="social">
-            <i class="fa {{ s.class }}"></i>
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-
-  <div class="py-3 text-left col-lg-8 col-sm-11 col-xs-11 mx-auto row">
+<div class="py-3 text-left col-lg-8 col-sm-11 col-xs-11 mx-auto row">
     <h3 class="display-6 fw-bold">Research</h3>
-    <p class="lead mb-4">At Creative Vision, we strive to transform anyone into a creator. To achieve this, we focus on three core elements: skill, efficiency, and personalization. Our <em>large generative models</em> for images, videos, 3D, and 4D significantly boost skill. But that’s not enough! The creative process demands instantaneous feedback. To do so, we push <em>efficiency</em> to the edge, enabling our models to run on mobile phones at nearly real-time speeds while utilizing only a fraction of the size of larger models. Yet, this is still not enough. Each creator possesses a unique style and <em>personality</em>. Therefore, we not only build models that are efficient, but also make them personalized. Since the inception of our team, we have contributed substantially to products, used by hundreds of millions of Snapchatters everyday!
-</p>
-    <p class="lead mb-4">If our mission resonates with you, please send us an email. We are constantly in search of interns, collaborators, and researchers.
-</p>
-  </div>
+    <p class="lead mb-4">At Creative Vision, we strive to transform anyone into a creator. To achieve this, we focus on
+        three core elements: skill, efficiency, and personalization. Our <em>large generative models</em> for images,
+        videos, 3D, and 4D significantly boost skill. But that’s not enough! The creative process demands instantaneous
+        feedback. To do so, we push <em>efficiency</em> to the edge, enabling our models to run on mobile phones at
+        nearly real-time speeds while utilizing only a fraction of the size of larger models. Yet, this is still not
+        enough. Each creator possesses a unique style and <em>personality</em>. Therefore, we not only build models that
+        are efficient, but also make them personalized. Since the inception of our team, we have contributed
+        substantially to products, used by hundreds of millions of Snapchatters everyday!
+    </p>
+    <p class="lead mb-4">If our mission resonates with you, please send us an email. We are constantly in search of
+        interns, collaborators, and researchers.
+    </p>
+</div>
 
-  <div class="text-left col-lg-8 col-sm-11 col-xs-11 mx-auto row">
+<div class="text-left col-lg-8 col-sm-11 col-xs-11 mx-auto row">
     <h3 class="display-6 fw-bold">Experience</h3>
     <div class="container col-lg-12">
 
-      <div id="scroll-container" class="row scrolling-wrapper flex-row flex-nowrap mt-4 pb-4 pt-2 js-scrollable"
-        style="position: relative; overflow: auto;">
-        <div class="col">
-          <div class="timeline-steps">
-          {% for exp in site.data.experience %}
-            <div class="timeline-step">
-              <div class="timeline-content">
-                <div class="inner-circle">
-                  <img class="fa-img" src=" {{ exp.image }} ">
+        <div class="row scrolling-wrapper flex-row flex-nowrap mt-4 pb-4 pt-2 js-scrollable" id="scroll-container"
+             style="position: relative; overflow: auto;">
+            <div class="col">
+                <div class="timeline-steps">
+                    {% for exp in site.data.experience %}
+                    <div class="timeline-step">
+                        <div class="timeline-content">
+                            <div class="inner-circle">
+                                <img class="fa-img" src=" {{ exp.image }} ">
+                            </div>
+                            <p class="h6 mt-3 mb-1">{{ exp.date }}</p>
+                            <p class="h6 text-muted mb-0 mb-lg-0">{{ exp.role }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
                 </div>
-                <p class="h6 mt-3 mb-1">{{ exp.date }}</p>
-                <p class="h6 text-muted mb-0 mb-lg-0">{{ exp.role }}</p>
-              </div>
             </div>
-          {% endfor %}
-          </div>
         </div>
-      </div>
     </div>
 
-  </div>
+</div>
 
-  <div class="py-3 text-left col-lg-8 col-sm-11 col-xs-11 mx-auto row">
+<div class="py-3 text-left col-lg-8 col-sm-11 col-xs-11 mx-auto row">
     <h3 class="display-6 fw-bold">Community Service</h3>
 
     <p class="lead mb-4">I served as a technical program comittee member for all major computer vision, graphics and
-      machine learning conferences: CVPR, ECCV, ICCV, NeurIPS, ICLR, SIGGRAPH, SIGGRAPH Asia, ICML. Since 2022 I serve
-      as an AC for CVPR, ICML, NeurIPS, ICLR, WACV, 3DV, ECCV, ICCV. Since June 2024 I&apos;m serving as an
-      Associate Editor for TPAMI.</p>
+        machine learning conferences: CVPR, ECCV, ICCV, NeurIPS, ICLR, SIGGRAPH, SIGGRAPH Asia, ICML. Since 2022 I serve
+        as an AC for CVPR, ICML, NeurIPS, ICLR, WACV, 3DV, ECCV, ICCV. Since June 2024 I&apos;m serving as an
+        Associate Editor for TPAMI.</p>
 
     <p class="lead mb-4">Our team organizes tutorials, teaches courses, and gives keynotes.</p>
 
     <div class="album py-5">
-      <div class="container">
+        <div class="container">
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <p class="card-text">A week-long course on "Teaching Computers to Imagine with Deep Generative Models"
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://stulyakov.com/teaching/teaching-to-imagine.html" type="button"
-                    class="btn btn-primary btn-sm">Materials</a>
-                  </div>
-                  <small class="text-body-secondary">Universty of Trento'2019</small>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">A week-long course on "Teaching Computers to Imagine with Deep
+                                Generative Models"
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-primary btn-sm"
+                                       href="https://stulyakov.com/teaching/teaching-to-imagine.html"
+                                       type="button">Materials</a>
+                                </div>
+                                <small class="text-body-secondary">Universty of Trento'2019</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <p class="card-text">A tutorial on "Unlocking Creativity with Computer Vision: Representations for
-                  Animation, Stylization and Manipulation"</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://snap-research.github.io/representations-for-creativity" type="button"
-                    class="btn btn-primary btn-sm">Materials</a>
-                  </div>
-                  <small class="text-body-secondary">CVPR'2020</small>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">A tutorial on "Unlocking Creativity with Computer Vision:
+                                Representations for
+                                Animation, Stylization and Manipulation"</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-primary btn-sm"
+                                       href="https://snap-research.github.io/representations-for-creativity"
+                                       type="button">Materials</a>
+                                </div>
+                                <small class="text-body-secondary">CVPR'2020</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <p class="card-text">A tutorial on "Video Synthesis: Early Days and New Developments"</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://snap-research.github.io/video-synthesis-tutorial" type="button"
-                    class="btn btn-primary btn-sm">Materials</a>
-                  </div>
-                  <small class="text-body-secondary">ECCV'2022</small>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">A tutorial on "Video Synthesis: Early Days and New Developments"</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-primary btn-sm"
+                                       href="https://snap-research.github.io/video-synthesis-tutorial"
+                                       type="button">Materials</a>
+                                </div>
+                                <small class="text-body-secondary">ECCV'2022</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <p class="card-text">A tutorial on "Efficient Neural Networks: From Algorithm Design to Practical Mobile
-                  Deployments"</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://snap-research.github.io/efficient-nn-tutorial" type="button"
-                    class="btn btn-primary btn-sm">Materials</a>
-                  </div>
-                  <small class="text-body-secondary">CVPR'2023</small>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">A tutorial on "Efficient Neural Networks: From Algorithm Design to
+                                Practical Mobile
+                                Deployments"</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-primary btn-sm"
+                                       href="https://snap-research.github.io/efficient-nn-tutorial"
+                                       type="button">Materials</a>
+                                </div>
+                                <small class="text-body-secondary">CVPR'2023</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
+            </div>
         </div>
-      </div>
     </div>
 
-  </div>
+</div>
 
-  <div id="publications" class="py-3 text-left col-lg-8 col-sm-11 mx-auto row">
+<div class="py-3 text-left col-lg-8 col-sm-11 mx-auto row" id="publications">
     <h3 class="display-6 fw-bold">Publications</h3>
 
-    <p class="lead py-3">This is an incomplete list. Please see my <a href="https://scholar.google.com/citations?user=mgzXR0sAAAAJ">google scholar.</a></p>
+    <p class="lead py-3">This is an incomplete list. Please see my <a
+            href="https://scholar.google.com/citations?user=mgzXR0sAAAAJ">google scholar.</a></p>
 
     <div class="container">
 
-      {% for pub in site.data.publications %}
+        {% for pub in site.data.publications %}
 
-      <div class="row py-3">
-          <div class="col-sm-3 py-3">
-            <div class="item">
-              <div class="notify-badge badge text-bg-primary">
-                <span> {{ pub.badge }}</span>
-              </div>
-              {% if pub.teaser_type == "video" %}
-                <video class="rounded img-fluid img-max" loop autoplay muted playsinline>
-                  <source src="{{ pub.teaser }}" type="video/mp4">
-                </video>
-              {% else %}
-                <img src="{{ pub.teaser }}" class="rounded img-fluid img-max" />
-              {% endif %}
+        <div class="row py-3">
+            <div class="col-sm-3 py-3">
+                <div class="item">
+                    <div class="notify-badge badge text-bg-primary">
+                        <span> {{ pub.badge }}</span>
+                    </div>
+                    {% if pub.teaser_type == "video" %}
+                    <video autoplay class="rounded img-fluid img-max" loop muted playsinline>
+                        <source src="{{ pub.teaser }}" type="video/mp4">
+                    </video>
+                    {% else %}
+                    <img class="rounded img-fluid img-max" src="{{ pub.teaser }}"/>
+                    {% endif %}
+                </div>
+
             </div>
 
-          </div>
+            <div class="col py-3">
+                <strong> {{ pub.title }} </strong>
 
-          <div class="col py-3">
-            <strong> {{ pub.title }} </strong>
+                <p>
+                    {% for author in pub.authors %}
+                    {{ author }}{% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                </p>
 
-            <p>
-              {% for author in pub.authors %}
-                {{ author }}{% if forloop.last == false %}, {% endif %}
-              {% endfor %}
-            </p>
+                {% if pub.venue %}
+                <p>
+                    <em>{{ pub.venue }}</em> {% if pub.highlight %} <strong>{{ pub.highlight }}</strong> {% endif %}
+                </p>
+                {% endif %}
 
-            {% if pub.venue %}
-            <p>
-              <em>{{ pub.venue }}</em> {% if pub.highlight %} <strong>{{ pub.highlight }}</strong> {% endif %}
-            </p>
-            {% endif %}
-
-            <a href="{{ pub.project_page }}" type="button" class="btn btn-primary btn-sm">Project</a>
-            <a href="{{ pub.arxiv_page }}" type="button" class="btn btn-primary btn-sm">Paper</a>
-          </div>
+                <a class="btn btn-primary btn-sm" href="{{ pub.project_page }}" type="button">Project</a>
+                <a class="btn btn-primary btn-sm" href="{{ pub.arxiv_page }}" type="button">Paper</a>
+            </div>
         </div>
-      <hr class="d-md-none"/>
+        <hr class="d-md-none"/>
 
-      {% endfor %}
+        {% endfor %}
 
 
     </div>
 
-  </div>
+</div>
 
-  </main>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
+<script>
     new ScrollHint('.js-scrollable', {
       scrollableRightClass: 'is-right-scrollable',
     });
-  </script>
-
-</body>
-
-</html>
+</script>

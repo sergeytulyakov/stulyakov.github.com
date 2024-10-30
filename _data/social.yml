@@ -1,12 +1,14 @@
-- class: fa-brands fa-x-twitter
+- class: fa fa-brands fa-x-twitter
   link: https://twitter.com/SergeyTulyakov
-- class: fa-brands fa-linkedin
+- class: fa fa-brands fa-linkedin
   link: https://www.linkedin.com/in/sergeytulyakov/
-- class: fa-brands fa-facebook
+- class: fa fa-brands fa-facebook
   link: https://www.facebook.com/s.tulyakov
-- class: fa-brands fa-github
+- class: fa fa-brands fa-github
   link: https://github.com/sergeytulyakov
-- class: fa-brands fa-google-scholar
+- class: fa fa-brands fa-google-scholar
   link: https://scholar.google.com/citations?user=mgzXR0sAAAAJ
-- class: fa-envelope
+- class: fa fa-envelope
   link: mailto:stulyakov@snap.com
+- class: fa bio
+  link: /bio
